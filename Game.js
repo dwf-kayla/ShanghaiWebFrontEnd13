@@ -121,7 +121,7 @@
         //用户控制
         userControl:function(){
             var that=this;
-            window.onclick=function(){
+            document.body.onclick=function(){
                 that.hero.speed=-0.3;//跳起来
             }
 
